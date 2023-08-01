@@ -27,6 +27,6 @@ class TestCommand extends Command
     public function handle()
     {
         $this->callSilent('about');
-	confirm('Is this visible?');
+	    confirm('Is this visible?');
     }
 }
